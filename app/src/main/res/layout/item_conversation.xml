@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/inbox_background"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/tvSender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sender"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/tvLastMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last message"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+</LinearLayout>
